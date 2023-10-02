@@ -22,7 +22,7 @@ const addTodo =()=>{
   if(userInput === ""){
     alert("You need to type something!")
   }else{
-    setTodos([...todos,{ id: todos.length,   text: userInput, completed: false}]);
+    setTodos([...todos,{ id: todos.length, text: userInput, completed: false}]);
 
   }
   
